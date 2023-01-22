@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Orb of Origin Rework
 
-## Setup
+## About
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Adds two new types of Orb of Origin to reroll your selected Origin, and adds survival friendly methods of obtaining these items.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+CurseForge: https://www.curseforge.com/minecraft/mc-mods/orb-of-origin-rework

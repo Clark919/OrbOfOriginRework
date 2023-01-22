@@ -1,6 +1,6 @@
 package com.clarkster.originsorbrework.util;
 
-import io.github.apace100.origins.registry.ModItems;
+import com.clarkster.originsorbrework.item.ModItems;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
@@ -48,7 +48,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.05f)) // Drops 5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -57,7 +57,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.25f)) // Drops 25% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -66,7 +66,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.075f)) // Drops 7.5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -75,7 +75,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.075f)) // Drops 7.5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -84,7 +84,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.2f)) // Drops 20% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -93,7 +93,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -102,7 +102,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.075f)) // Drops 7.5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -110,7 +110,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.075f)) // Drops 7.5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -118,7 +118,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -126,7 +126,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f)) // Drops 10% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -134,7 +134,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -142,7 +142,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.05f)) // Drops 5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -150,7 +150,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.05f)) // Drops 5% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -158,7 +158,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.02f)) // Drops 2% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
@@ -166,7 +166,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.25f)) // Drops 25% of the time
-                        .with(ItemEntry.builder(ModItems.ORB_OF_ORIGIN))
+                        .with(ItemEntry.builder(ModItems.ORB_OF_REBIRTH))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 tableBuilder.pool(poolBuilder.build());
             }
