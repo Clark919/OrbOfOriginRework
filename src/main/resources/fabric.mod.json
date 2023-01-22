@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "originsorbrework",
+  "version": "${version}",
+
+  "name": "Orb of Origin Rework",
+  "description": "An Origins addon that adds a crafting recipe for Orbs of Origin, and adds them to various vanilla loot pools.",
+  "authors": [
+    "Clarkster"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/orb-of-origin-rework",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/originsorbrework/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.clarkster.originsorbrework.OriginsOrbRework"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17",
+    "origins": ">=1.6.2"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
