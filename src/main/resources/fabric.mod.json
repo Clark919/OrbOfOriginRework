@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Orb of Origin Rework",
-  "description": "An Origins addon that adds a crafting recipe for Orbs of Origin, and adds them to various vanilla loot pools.",
+  "description": "An Origins addon that adds a crafting recipe two new Orbs of Origin, and adds them to various vanilla loot pools.",
   "authors": [
     "Clarkster"
   ],
@@ -30,7 +30,8 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "origins": ">=1.6.2"
+    "origins": ">=1.6.2",
+    "origins-classes": ">=1.4.0"
   },
   "suggests": {
     "another-mod": "*"

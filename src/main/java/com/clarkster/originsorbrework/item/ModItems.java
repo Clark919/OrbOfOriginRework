@@ -11,9 +11,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item ORB_OF_REBIRTH = registerItem("orb_of_rebirth",
-           new OrbOfRebirth(new FabricItemSettings().group(ItemGroup.MISC)));
+           new OrbOfRebirth(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item ORB_OF_VOCATION = registerItem("orb_of_vocation",
-            new OrbOfVocation(new FabricItemSettings().group(ItemGroup.MISC)));
+            new OrbOfVocation(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(OriginsOrbRework.MOD_ID, name), item);

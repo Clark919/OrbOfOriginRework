@@ -5,14 +5,14 @@
       "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "item": "minecraft:compass"
+      "item": "minecraft:clock"
     }
   ],
   "result": {
-    "item": "originsorbrework:orb_of_rebirth",
+    "item": "originsorbrework:orb_of_vocation",
     "count": 1
   }
 }
