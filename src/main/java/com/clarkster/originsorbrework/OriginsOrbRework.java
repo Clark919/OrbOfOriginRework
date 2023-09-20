@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 
 public class OriginsOrbRework implements ModInitializer {
-	public static final String MOD_ID = "originsorbrework";
+	public static final String MOD_ID = "originsorbreworkfork";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
