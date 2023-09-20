@@ -1,19 +1,19 @@
 {
 	"schemaVersion": 1,
-	"id": "originsorbreworkfork",
+	"id": "originsorbrework",
 	"version": "${version}",
 
-	"name": "Orb of Origin Rework Fork",
-	"description": "An Origins addon that adds a crafting recipe two new Orbs of Origin, and adds them to various vanilla loot pools. (An updated fork for Fabric)",
+	"name": "Orb of Origin Rework",
+	"description": "An Origins addon that adds a crafting recipe two new Orbs of Origin, and adds them to various vanilla loot pools.",
 	"authors": [
-		"HaXr"
+		"Clarkster"
 	],
 	"contributors": [
-		"Clarkster - Original Author"
+		"HaXr"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": "https://github.com/HaXrBOT/OrbOfOriginRework"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/orb-of-origin-rework",
+		"sources": "https://github.com/Clark919/OrbOfOriginRework"
 	},
 
 	"license": "MIT",
