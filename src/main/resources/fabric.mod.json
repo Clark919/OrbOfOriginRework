@@ -1,39 +1,39 @@
 {
-  "schemaVersion": 1,
-  "id": "originsorbrework",
-  "version": "${version}",
+	"schemaVersion": 1,
+	"id": "originsorbrework",
+	"version": "${version}",
 
-  "name": "Orb of Origin Rework",
-  "description": "An Origins addon that adds a crafting recipe two new Orbs of Origin, and adds them to various vanilla loot pools.",
-  "authors": [
-    "Clarkster"
-  ],
-  "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/orb-of-origin-rework",
-    "sources": "https://github.com/Clark919/OrbOfOriginRework"
-  },
+	"name": "Orb of Origin Rework",
+	"description": "An Origins addon that adds a crafting recipe two new Orbs of Origin, and adds them to various vanilla loot pools.",
+	"authors": [
+		"Clarkster"
+	],
+	"contributors": [
+		"HaXr"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/orb-of-origin-rework",
+		"sources": "https://github.com/Clark919/OrbOfOriginRework"
+	},
 
-  "license": "MIT",
-  "icon": "assets/originsorbrework/icon.png",
+	"license": "MIT",
+	"icon": "assets/originsorbrework/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.clarkster.originsorbrework.OriginsOrbRework"
-    ]
-  },
-  "mixins": [
-  ],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.clarkster.originsorbrework.OriginsOrbRework"
+		]
+	},
+	"mixins": [
+	],
 
-  "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric": "*",
-    "minecraft": ">=1.19",
-    "java": ">=17",
-    "origins": ">=1.6.2",
-    "origins-classes": ">=1.4.0"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"origins": ">=1.10.0",
+		"origins-classes": ">=1.7.0"
+	}
 }
